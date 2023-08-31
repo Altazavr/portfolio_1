@@ -3,15 +3,15 @@
 }
 @font-face {
     font-family: montserrat-bold;
-    src: url(/fonts/montserrat-bold.ttf);
+    src: url(./fonts/montserrat-bold.ttf);
 }
 @font-face {
     font-family: montserrat-regular;
-    src: url(/fonts/montserrat-regular.ttf);
+    src: url(./fonts/montserrat-regular.ttf);
 }
 @font-face {
     font-family: PT-serif-regular;
-    src: url(/fonts/PT-serif-regular.ttf);
+    src: url(./fonts/PT-serif-regular.ttf);
 }
 body {
     margin: 0;
@@ -24,7 +24,7 @@ body {
     height: 700px;
     background-size: cover;
     background-repeat: no-repeat;  
-    background-image: url("/img/BackgroundRed.png");
+    background-image: url("./img/BackgroundRed.png");
     margin: 0 auto;
     padding: 40px 90px 160px 90px;
 }
