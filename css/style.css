@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: montserrat-bold;
+    src: url(/fonts/montserrat-bold.ttf);
+}
+@font-face {
+    font-family: montserrat-regular;
+    src: url(/fonts/montserrat-regular.ttf);
+}
+@font-face {
+    font-family: PT-serif-regular;
+    src: url(/fonts/PT-serif-regular.ttf);
+}
+body {
+    margin: 0;
+}
+.menu {
+    background-color:beige;
+}
+.container__red {
+    width: 1200px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-image: url("/img/BackgroundRed.png");
+    margin: 0 auto;
+    padding: 40px 90px 160px 90px;
+}
+.menu__inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.menu__red {
+    display: flex;
+}
+.menu__red h4 a {
+    font-family: montserrat-regular;
+    text-decoration: none;
+    color: white;
+    padding: 12px 15px 12px 15px;
+}
+.menu__red h4 a:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+}
+.name__text__red {
+    margin: 140px 0 0 20px;
+    color: white;
+}
+.name__red {
+    max-width: 500px;
+    font-family: montserrat-bold;
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    color:#130e27;
+}
+.name__red1 {
+    max-width: 500px;
+    font-family: montserrat-bold;
+    margin: 0;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.text__red {
+    max-width: 480px;
+    font-family: PT-serif-regular;
+    margin-top: 60px;
+    font-size: 18px;
+}
+/*1*/
+.block2 {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0 100px;
+    background-color: white;
+}
+.block2__heading {
+    display: flex;
+}
+.block2__heading h1 {
+    margin-right: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: montserrat-bold;
+}
+.Our__heading {
+    color: #c62314;
+    margin-left: 15px;
+}
+.Our__heading2 {
+    color:#130e27;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color:#130e27;
+}
+.fa {
+    font-size: 150px;
+}
+.icon__text {
+    max-width: 170px;
+    font-size: 18px;
+    font-family: PT-serif-regular;
+}
+/*2*/
+.block3 {
+    display: flex;
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    background-color: #130e27;
+    justify-content: space-between;
+}
+.block3 h3{
+    margin: auto 0;
+    padding: 0 105px;
+    font-family: montserrat-regular;
+    text-transform: uppercase;
+}
+.block3 h3 a{
+    text-decoration: none;
+    color: white;
+    padding: 25px 75px;
+}
+.block3 h3 a:hover{
+    background-color: #c62314;
+    border-radius: 5px;
+}
+.block3 p{
+    color: white;
+    margin: 0;
+    margin: auto 0;
+    max-width: 600px;
+    padding: 0 105px;
+    font-size: 18px;
+    font-family: PT-serif-regular;
+}
+/*3*/
+.block4 {
+    width: 1200px;
+    height: 730px;
+    margin: 0 auto;
+    background-color: #efefef;
+}
+.heading__block4 {
+    color: #130e27;
+    text-transform: uppercase;
+    font-family: montserrat-bold;
+    font-size: 50px;
+    padding: 60px 500px;
+    margin: 0;
+}
+.cards {
+    display: flex;
+    padding: 0 105px;
+    justify-content: space-between;
+    text-align: center;
+}
+.item h1 {
+    color: #c62314;
+    font-family: montserrat-bold;
+    font-size: 50px;
+}
+.item h3 a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #130e27;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-family: montserrat-regular;
+}
+.item h3 a:hover {
+    border-radius: 5px;
+    background-color:#c62314;
+}
+.extra1 {
+    font-size: 22px;
+    font-family: PT-serif-regular;
+}
+.extra2 {
+    line-height: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family: PT-serif-regular;
+}
+.item {
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px 60px;
+}
+/*4*/
+.block5 {
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #130e27;
+    margin: 0 auto;
+    padding: 0 105px;
+}
+.general {
+    display: flex;
+}
+.block5 img {
+    width: 200px;
+    height: 70px;
+    margin: auto 0;
+}
+.block5 p {
+    color: white;
+    margin: auto 0;
+    font-size: 20px;
+}
+.rgb__red {
+    color: #961d19;
+    text-decoration: none;
+}
